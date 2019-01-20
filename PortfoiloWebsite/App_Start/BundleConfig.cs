@@ -20,10 +20,10 @@ namespace PortfoiloWebsite
                         "~/Scripts/modernizr-*"));
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
-                      "~/Scripts/bootstrap.js"));
+                      "~/Scripts/bootstrap.min.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap_Superhero.css",
+                      "~/Content/bootstrap.css",
                       "~/Content/site.css"));
         }
     }
